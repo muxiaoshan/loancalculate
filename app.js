@@ -53,7 +53,7 @@ Ext.application({
 						var form = this.up('formpanel');
 						var values = form.getValues();
 						amount = values.amount; //request.getParameter("amount");
-						Ext.Msg.alert('查看', '输入金额:' + amount);						/*String yearsStr = request.getParameter("years");
+						Ext.Msg.alert('查  看', '输入金额:' + amount);						/*String yearsStr = request.getParameter("years");
 						String rateStr = request.getParameter("rate");
 						System.out.println("amount:" + amountStr + ",years:" + yearsStr);
 						if(amountStr != null && amountStr.trim().length() != 0){
